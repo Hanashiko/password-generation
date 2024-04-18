@@ -1,6 +1,6 @@
 from random import choice
 
-def generate_password(length: int) -> str:
+def generate_password(length: int = 8) -> str:
   symbols: str = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ0123456789!@#$%^&*()-_=+{}[]|\\;:'\",.<>/?"
   password: str = ""
   for _ in range(length):
